@@ -1,4 +1,4 @@
-## uniapp + leancloud 空闲事件构建小运用 
+## uniapp + leancloud 空闲时间构建小运用 
 
 ### uniapp 实现你简单页面打包成手机apk文件  
 1. 官网下载idea https://uniapp.dcloud.io/quickstart  
@@ -12,7 +12,7 @@
 设置>应用Keys > AppID +AppKey 
 来实例化 我封装的 leancloud.js 里面 AV 对象
 AV.init("MW9UfmNmX0phVCcw2YCPQmye-MdYXbMMI","XslNotJgRdIcWVdNlTTWtCAv"); // 你的应用key值 
-应用引入av-min.js及可进行 leancloud 数据存储
+应用引入av-min.js及可进行 leancloud 数据存储  
 ![leancloud](leancloud.png)
 
 -----
