@@ -1,0 +1,18 @@
+{
+  "name": "vue_wecode_apps",
+  "version": "1.0.0",
+  "description": "http://aui.dianm.cc/\r  http://aui.dianm.cc/doc/v/2/doc_id/8\r  https://blog.csdn.net/BaiHuaXiu123/article/details/89602591\r  npm i muse-ui -S",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "muse-ui": "^3.0.2"
+  },
+  "devDependencies": {
+    "swiper": "^6.3.5",
+    "vue-awesome-swiper": "^4.1.1"
+  }
+}

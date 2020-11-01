@@ -1,0 +1,295 @@
+
+@import 'http://cdn.bootcss.com/material-design-icons/3.0.1/iconfont/material-icons.css';
+.app{color:red}
+.flex{display: flex;}.none{display: none;}.between{display: flex;justify-content: space-between;}
+.warp{display: flex;width: 100%;flex-wrap: wrap;justify-content: baseline;}
+.border{
+    border: 1px solid #FFF;
+    border-radius: 5px;
+}
+.radius{
+    border-radius: 5px;
+}
+/* search */
+
+/* tab */
+
+/* list */
+
+/* item */
+.item-img{
+    min-width: 100px;
+    min-height: 100px;
+    
+}
+/* nav */
+
+/* detail */
+
+
+/* icons https://www.cnblogs.com/xmqa/p/8968523.html */
+.icon-block{display:inline-block;position:relative;margin:0 2px;width:2em;height:2em;}
+ 
+.icon-block:hover{opacity:0.6;filter:Alpha(opacity=60);cursor:pointer;}
+
+.icon-user {
+    box-sizing: border-box;
+    position: relative;
+    width: .7em;
+    height: .7em;
+    background-color: #000;
+    border-radius: 50%;
+    bottom:-.2em;
+    left:.65em;
+}
+.icon-user:after {
+    content: "";
+    position: absolute;
+    top: .75em;
+    left: 50%;
+    margin-left:-.7em;
+    width: 1.4em;
+    height: .7em;
+    background-color: #000;
+    border-top-left-radius: .9em;
+    border-top-right-radius: .9em;
+}
+.icon-home {
+    box-sizing: border-box;
+    position: relative;
+    width: 1.1em;
+    height: .9em;
+    background-color: #000;
+    bottom:-.8em;
+    left:.5em;
+}
+ .icon-home:before {
+    content: "";
+    position: absolute;
+    top: -.5em;
+    left: 50%;
+    margin-left: -.9em;
+    border-left: .9em solid transparent;
+    border-right: .9em solid transparent;
+    border-bottom: .7em solid #000;
+}
+.icon-home:after {
+    z-index: 2;
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    width: .3em;
+    height: .45em;
+    background-color: #fff;
+}
+
+.icon-stop {
+    box-sizing: border-box;
+    position: relative;
+    width: 1.6em;
+    height: 1.6em;
+    border: .2em solid #000;
+    border-radius: 50%;
+    bottom:-.25em;
+    left:.2em;
+}
+.icon-stop:after {
+    box-sizing: border-box;
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right:0;
+    margin: auto;
+    width: .65em;
+    height: .65em;
+    background-color: #000;
+}
+.icon-position {
+    position: relative;
+    width: .4em;
+    height: .4em;
+    border: .3em solid #000;
+    border-radius: 50%;
+    left:.5em;
+    bottom:-.3em;
+}
+.icon-position:after {
+    content: "";
+    position: absolute;
+    top: .5em;
+    left: -.2em;
+    width: 0;
+    height: 0;
+    border-top: 0.6em solid #000;
+    border-right:0.4em solid transparent;
+    border-left: 0.4em solid transparent;
+}
+.icon-pc {
+    box-sizing: border-box;
+    position: relative;
+    width: 1.4em;
+    height: .9em;
+    border-width: .12em .12em .12em;
+    border-style: solid;
+    border-color: #000;
+    border-radius: .1em;
+    background-color: #efefef;
+    left:.25em;
+    bottom:-.2em;
+}
+.icon-pc:before {
+    content: "";
+    position: absolute;
+    top: .7em;
+    right: 0;
+    left: 0;
+    margin: auto;
+    width: .4em;
+    height: .5em;
+    background-color: #000;
+}
+.icon-pc:after {
+    content: "";
+    position: absolute;
+    top: 1.2em;
+    right: 0;
+    left: 0;
+    margin: auto;
+    width: 1.2em;
+    height: .1em;
+    background-color: #000;
+}
+.icon-phone {
+    box-sizing: border-box;
+    position: relative;
+    width: 1em;
+    height: 1.4em;
+    background-color: #efefef;
+    border-width: .12em .12em .3em .12em;
+    border-style: solid;
+    border-color: #000;
+    border-radius: .12em;
+    bottom:-.3em;
+    left:.48em;
+}
+.icon-phone:after {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: -.25em;
+    left: 0;
+    margin: auto;
+    width: .2em;
+    height: .2em;
+    background-color: #fff;
+    border-radius: .2em;
+}
+.icon-search {
+    box-sizing: border-box;
+    position: relative;
+    width: .6em;
+    height: .2em;
+    background-color: #000;
+    border-top-right-radius: .15em;
+    border-bottom-right-radius: .15em;
+    transform: rotate(40deg);
+    bottom:-1.2em;
+    left:1.1em;
+}
+ .icon-search:before {
+    content: "";
+    position: absolute;
+    left: -.85em;
+    bottom: -.4em;
+    width: .6em;
+    height: .6em;
+    border: .15em solid #000;
+    border-radius: 50%;
+} 
+.icon-star {
+    box-sizing: border-box;
+    position: relative;
+    width: 0;
+    height: 0;
+    border-top: .5em solid #000;
+    border-right: .7em solid transparent;
+    border-left: .7em solid transparent;
+    bottom:-.8em;
+    left:.3em;
+}
+.icon-star:before {
+    content: "";
+    position: absolute;
+    top: -.5em;
+    left: -.7em;
+    width: 0;
+    height: 0;
+    border-top: .5em solid #000;
+    border-right: .7em solid transparent;
+    border-left: .7em solid transparent;
+    transform: rotate(72deg);
+}
+.icon-star:after {
+    content: "";
+    position: absolute;
+    top: -.5em;
+    left: -.65em;
+    width: 0;
+    height: 0;
+    border-top: .5em solid #000;
+    border-right: .7em solid transparent;
+    border-left: .7em solid transparent;
+    transform: rotate(-72deg);
+}
+.icon-email {
+    box-sizing: border-box;
+    position: relative;
+    width: 0;
+    height: 0;
+    border-width: .5em .7em;
+    border-style: solid;
+    border-color: transparent #000 #000 #000;
+    bottom:-.52em;
+    left:.28em;
+}
+.icon-email:after {
+    content: "";
+    position: absolute;
+    top: -.5em;
+    left: -.7em;
+    width: 0;
+    height: 0;
+    border-top: .4em solid #000;
+    border-right: .7em solid transparent;
+    border-left: .7em solid transparent;
+}
+.icon-heart {
+    position: relative;
+    width: .8em;
+    height: 1.2em;
+    background-color: #000;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+    transform: rotate(-45deg);
+    transform-origin: center bottom;
+    bottom:-.2em;
+    left:.9em;
+}
+.icon-heart:after {
+    content: "";
+    position: absolute;
+    top: -.4em;
+    left: -.4em;
+    width: .8em;
+    height: 1.2em;
+    background-color: #000;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+    transform: rotate(90deg);
+    transform-origin: center bottom;
+}
